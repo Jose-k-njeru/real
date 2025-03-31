@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Joseph's Website</title>
+    <style>
+        body {
+            background-color: powderblue;
+            color: orange;
+            font-family: Times New Roman, serif;
+            margin: 0;
+        }
+        header {
+            text-align: center;
+            padding: 20px;
+        }
+        h1 {
+            color: green;
+        }
+        aside {
+            background-color: black;
+            color: white;
+            padding: 10px;
+        }
+        nav {
+            background-color: grey;
+            padding: 10px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin-right: 10px;
+        }
+        .contribution-form {
+            padding: 20px;
+            width: 300px;
+        }
+        .contribution-form fieldset{
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Money Contribution towards buying a laptop for Joseph</h1>
+    </header>
+    <main class="contribution-form">
+        <p>This website is created to collect contributions.</p>
+        <form>
+            <fieldset>
+                <legend>Contribution Table Registration</legend>
+                <label for="name">Enter your name:</label><br>
+                <input type="text" id="name" placeholder="Name please" required><br><br>
+                <label for="amount">Enter your contribution amount:</label><br>
+                <input type="number" id="amount" placeholder="Please enter" required><br><br>
+                <label for="email">Enter your email:</label><br>
+                <input type="email" id="email" placeholder="Email required" required><br><br>
+                <button type="submit">Submit</button>
+            </fieldset>
+        </form>
+        <section>
+            <h2>Reason for this contribution</h2>
+            <p>I have been having money shortage since I was admitted in Nairobi University for Biochemistry course. I have sought help from different places to help me be able to pursue my career course. Out of those struggles, some helped and others never. This idea of creating this website came into my mind at least to see whether I can get people to assist me.</p>
+        </section>
+    </main>
+    <aside>
+        <h1>For more information about Joseph Visit @About below</h1>
+        <nav>
+            <a href="about.html">About</a>
+            <a href="real.html">Open Real Page</a>
+        </nav>
+        <p>NB: THIS TABLE Is FILLED BY THE CONTRIBUTORS. The Number to contribute Click @ About below</p>
+    </aside>
+</body>
+</html>
